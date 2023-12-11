@@ -13,7 +13,7 @@ export default function Contact() {
     <div id="contact">
       <div>
         <img
-          src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/OKL3YQRDPRGRDKEM46PFW67ZMQ.jpg"
+          src="https://picsum.photos/200"
           alt="alternative-text"
         />
       </div>
@@ -25,7 +25,7 @@ export default function Contact() {
               {contact.first} {contact.last}
             </>
           ) : (
-            <i>No Name</i>
+            <i>Insert Name</i>
           )}{" "}
           <Favorite contact={contact} />
         </h1>

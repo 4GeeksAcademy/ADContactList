@@ -31,7 +31,7 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>My favorite contacts</h1>
+          <h1>My Contacts</h1>
           <div>
             <Form id="search-form" role="search">
               <input
@@ -56,7 +56,7 @@ export default function Root() {
               ></div>
             </Form>
             <Form method="post">
-            <button type="submit">Add a new Contact</button>
+            <button type="submit">Add New Contact</button>
           </Form>
           </div>
           <nav>
@@ -80,7 +80,7 @@ export default function Root() {
                         {contact.first} {contact.last}
                       </>
                     ) : (
-                      <i>No Name</i>
+                      <i>Insert Name</i>
                     )}{" "}
                     {contact.favorite && <span>★</span>}
                   

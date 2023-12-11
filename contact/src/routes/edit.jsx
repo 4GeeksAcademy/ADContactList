@@ -17,14 +17,14 @@ export default function EditContact() {
       <p>
         <span>Name</span>
         <input
-          placeholder="First"
+          placeholder="First Name"
           aria-label="First name"
           type="text"
           name="first"
           defaultValue={contact.first}
         />
         <input
-          placeholder="Last"
+          placeholder="Last Name"
           aria-label="Last name"
           type="text"
           name="last"
@@ -36,14 +36,14 @@ export default function EditContact() {
         <input
           type="text"
           name="twitter"
-          placeholder="@something something "
+          placeholder="Insert Email "
           defaultValue={contact.twitter}
         />
       </label>
       <label>
-        <span>Phone number</span>
+        <span>Phone</span>
         <input
-          placeholder=""
+          placeholder="(000) 000-0000"
           aria-label="Avatar URL"
           type="text"
           name="avatar"
